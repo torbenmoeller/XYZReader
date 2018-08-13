@@ -101,7 +101,7 @@
         android:contentDescription="@string/action_share"
         android:stateListAnimator="@animator/fab_state_list_anim"
         android:elevation="@dimen/fab_elevation"
-        android:layout_margin="16dp" />
+        android:layout_margin="@dimen/fab_margin" />
 
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
