@@ -23,12 +23,24 @@
         <item name="colorAccent">@color/theme_accent</item>
         <item name="android:fontFamily">@font/headline</item>
         <item name="android:textColor">@color/black</item>
-
-
     </style>
 
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Bacon.Subhead" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:fontFamily">@font/headline</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">4</item>
+    </style>
+
+    <style name="Theme.Bacon.Body1" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">@font/subtitle</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
     </style>
 
 </resources>
