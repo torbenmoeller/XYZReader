@@ -1,5 +1,15 @@
 <resources>
-    <!-- detail -->
+
+    <dimen name="text_size_subhead">20sp</dimen>
+    <dimen name="text_size_body">12sp</dimen>
+
+    <dimen name="article_padding_top">16dp</dimen>
+    <dimen name="article_padding_bottom">16dp</dimen>
+
+    <dimen name="cardview_padding">16dp</dimen>
+    <dimen name="cardview_padding_short">4dp</dimen>
+
+
     <dimen name="detail_title_text_size">42sp</dimen>
     <dimen name="detail_body_text_size">18sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
@@ -7,11 +17,5 @@
     <dimen name="fab_elevation">4dp</dimen>
     <dimen name="fab_press_translation_z">8dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-
-    <dimen name="article_padding_top">16dp</dimen>
-    <dimen name="article_padding_bottom">16dp</dimen>
-
-    <dimen name="cardview_padding">16dp</dimen>
-    <dimen name="cardview_padding_short">4dp</dimen>
 
 </resources>

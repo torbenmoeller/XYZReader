@@ -21,7 +21,7 @@
 
         <TextView
             android:id="@+id/article_title"
-            style="@style/TextAppearance.AppCompat.Subhead"
+            style="@style/Theme.Bacon.Subhead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/cardview_padding"
@@ -31,7 +31,7 @@
 
         <TextView
             android:id="@+id/article_subtitle"
-            style="@style/TextAppearance.AppCompat.Body1"
+            style="@style/Theme.Bacon.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/cardview_padding"
@@ -39,7 +39,7 @@
 
         <TextView
             android:id="@+id/article_author"
-            style="@style/TextAppearance.AppCompat.Body1"
+            style="@style/Theme.Bacon.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/cardview_padding"
